@@ -49,6 +49,7 @@ namespace powertoys_gpo {
     const std::wstring POLICY_CONFIGURE_ENABLED_PASTE_PLAIN = L"ConfigureEnabledUtilityPastePlain";
     const std::wstring POLICY_CONFIGURE_ENABLED_VIDEO_CONFERENCE_MUTE = L"ConfigureEnabledUtilityVideoConferenceMute";
     const std::wstring POLICY_CONFIGURE_ENABLED_REGISTRY_PREVIEW = L"ConfigureEnabledUtilityRegistryPreview";
+    const std::wstring POLICY_CONFIGURE_ENABLED_ARCHIVE_PREVIEW = L"ConfigureEnabledUtilityFileExplorerArchivePreview";
 
     // The registry value names for PowerToys installer and update policies.
     const std::wstring POLICY_DISABLE_PER_USER_INSTALLATION = L"PerUserInstallationDisabled";
@@ -287,4 +288,8 @@ namespace powertoys_gpo {
         return getConfiguredValue(POLICY_ALLOW_EXPERIMENTATION);
     }
 
+    inline gpo_rule_configured_t getConfiguredArchivePreviewEnabledValue()
+    {
+        return getConfiguredValue(POLICY_CONFIGURE_ENABLED_ARCHIVE_PREVIEW);
+    }
 }

@@ -313,6 +313,7 @@ SOFTWARE.
 - NLog.Extensions.Logging 5.0.4
 - NLog.Schema 5.0.4
 - ScipBe.Common.Office.OneNote 3.0.1
+- SharpCompress 0.33.0
 - StyleCop.Analyzers 1.2.0-beta.435
 - System.CommandLine 2.0.0-beta1.20071.2
 - System.ComponentModel.Composition 7.0.0

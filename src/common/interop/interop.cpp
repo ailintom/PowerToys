@@ -242,5 +242,9 @@ public
         static String ^ SvgPreviewResizeEvent() {
             return gcnew String(CommonSharedConstants::SVG_PREVIEW_RESIZE_EVENT);
         }
+
+        static String ^ ArchivePreviewResizeEvent() {
+            return gcnew String(CommonSharedConstants::ARCHIVE_PREVIEW_RESIZE_EVENT);
+        }
     };
 }
